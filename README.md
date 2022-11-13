@@ -9,7 +9,8 @@ by using built in 'command line' send certain commands to bots in the network.
 
 ## Installation
 1. Clone Repo
-2. Install Libraries
+2. Set server ip and port
+3. Install Libraries
 ````commandline
 pip install -r requirments.txt
 ````
