@@ -9,7 +9,7 @@ by using built in 'command line' send certain commands to bots in the network.
 
 ## Installation
 1. Clone Repo
-2. Set server ip and port
+2. Set server host and port fields in config.json
 3. Install Libraries
 ````commandline
 pip install -r requirments.txt
