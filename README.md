@@ -10,7 +10,8 @@ by using built in 'command line' send certain commands to bots in the network.
 ## Installation
 1. Clone Repo
 2. Set server host and port fields in config.json
-3. Install Libraries
+3. Find the right POST request and edit poodle.py Stresser class
+4. Install Libraries
 ````commandline
 pip install -r requirments.txt
 ````
