@@ -213,7 +213,8 @@ class Stresser:
         self.number_of_threads = number_of_threads
         self.data = str(random.choices(string.ascii_lowercase, k=99_999))
         self.post_url = "http://www.example.com"
-        # find the right post request that you want to spam
+        
+        # find the right POST request that you want to spam
         # example: f'"LOGUSER={self.data}&LOGPASS={self.data}'
         # self.data is important because its a package of 100000 chars
         # that is being sent in a request
