@@ -23,3 +23,4 @@ python3 poodle.py --server
            or
 python3 poodle.py --bot
 ``` 
+Feel free to contact me: lazarjovicic808@gmail.com
