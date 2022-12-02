@@ -139,6 +139,7 @@ class Server:
 #########################################
 
 class Client:
+    
     def __init__(self) -> None:
         file = open('config.json')
         config = json.load(file)
